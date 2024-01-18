@@ -19,8 +19,17 @@
 //     should evaluate to 26
 
 
-function addNestedNumbers() {
-
+function addNestedNumbers(nestedNumbers) {
+  let sum = 0;
+  for (let index = 0; index < nestedNumbers.length; index++) {
+    const innerloop = nestedNumbers[index];
+    for (let j = 0; j < innerloop.length; j++) {
+      const element = innerloop[j];
+      sum = sum + element
+    }
+    
+  }
+  return sum;
 }
 
 try {

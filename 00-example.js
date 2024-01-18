@@ -5,7 +5,8 @@
 //     should evaluate to "Bears are good."
 
 function returnBearInfo() {
-
+return "Bears are good."
+;
 }
 
 

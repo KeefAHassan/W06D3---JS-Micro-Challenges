@@ -14,8 +14,10 @@
 //     should evaluate to "dolphinBoopBeepBoop"
 
 
-function smooshSomeStrings() {
-  
+function smooshSomeStrings(stringArray, num) {
+  const sliceArray = stringArray.slice(num)
+  const addArray = sliceArray.join('');
+  return addArray;
 }
 
 try {

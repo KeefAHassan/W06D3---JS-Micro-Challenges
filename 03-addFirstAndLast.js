@@ -11,8 +11,11 @@
 //     should evaluate to 20
 
 
-function addFirstAndLast() {
-
+function addFirstAndLast(numArray) {
+  const firstNumber = numArray[0]
+  const lastNumber = numArray[numArray.length-1]
+  let sum = firstNumber + lastNumber;
+  return sum
 }
 
 try {

@@ -10,8 +10,9 @@
 //     should evaluate to 9
 
 
-function sum() {
-
+function sum(num1, num2) {
+let answer = num1 + num2;
+return answer;
 }
 
 try {

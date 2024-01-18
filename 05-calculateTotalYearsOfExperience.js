@@ -14,8 +14,14 @@
 //     should evaluate to 14
 
 
-function calculateTotalYearsOfExperience() {
+function calculateTotalYearsOfExperience(employees) {
+let sum = 0;
+for (let index = 0; index < employees.length; index++) {
+  const element = employees[index];
+  sum = sum + element.yearsOfExperience
 
+}
+return sum
 }
 
 try {
